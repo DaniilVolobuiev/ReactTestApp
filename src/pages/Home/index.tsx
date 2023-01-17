@@ -27,7 +27,7 @@ const Home = () => {
     return items
       .filter((item) => {
         const title = item.title.toLowerCase();
-        const summary = item.summary.toLowerCase();
+        const summary = item.summary.slice(0, 100).trim().toLowerCase();
         return (
           title.includes(searchValue.toLowerCase()) || summary.includes(searchValue.toLowerCase())
         );
