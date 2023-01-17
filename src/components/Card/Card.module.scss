@@ -1,0 +1,43 @@
+.date {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #363636;
+  opacity: 0.6;
+
+  margin-bottom: 24px;
+
+  .dateImg {
+    width: 13.33px;
+    height: 12px;
+  }
+}
+.title {
+  font-size: 1.3rem !important;
+  font-weight: 400 !important;
+
+  color: #363636 !important;
+  line-height: 1.8rem !important;
+
+  margin-bottom: 20px !important;
+  height: 100px;
+}
+.description {
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  line-height: 150% !important;
+
+  margin-bottom: 20px;
+
+  text-overflow: ellipsis;
+
+  max-width: 200px;
+}
+
+.readMore {
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  color: #363636 !important;
+
+  position: absolute;
+  bottom: 0;
+}
